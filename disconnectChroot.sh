@@ -1,6 +1,7 @@
 #!/mnt/bin/sh -x
 
 #umount TV filesystems
+umount /mnt/debian/tv/dtv/usb/sdb1
 umount /mnt/debian/tv/dtv
 umount /mnt/debian/tv
 
