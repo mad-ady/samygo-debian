@@ -7,7 +7,10 @@ Debian chroot for SamyGO (H-Series), armel, minimal
 cat debian.img.split.aa debian.img.split.ab debian.img.split.ac > debian.img.gz
 ```
 * Gunzip debian.img.gz to the root of your SamyGO USB drive. It takes up about 750MB
-* Copy the *.sh scripts to your TV (I placed them in /mnt/scripts/
+```
+gunzip debian.img.gz
+```
+* Copy the *.sh scripts to your TV (I placed them in /mnt/scripts/)
 
 ==Activation==
 * Edit prepareChroot.sh and set the correct path to debian.img
